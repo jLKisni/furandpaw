@@ -1,0 +1,102 @@
+.thumbnail>img {
+    margin-right: auto;
+    margin-left: auto;
+    height: 250px;
+     width:100%;
+}
+
+.thumbnails img{
+    float: left;
+    margin-right: 10px;
+    display: block;
+    width:90px;
+    height:90px;
+
+}
+
+.comment-star-rating .br-theme-fontawesome-stars .br-widget a {
+    font: normal normal normal 30px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+.thumbnails img:hover{
+    opacity:0.6;
+}
+
+.thumbnail-container{
+	width:100%;
+	height:auto;
+	margin: 0 auto;
+}
+
+.items-thumbnail .carousel-inner {
+    height: 255px;
+}
+
+
+
+.items-thumbnail .carousel-inner > .item > img, .items-thumbnail .carousel-inner > .item > a > img {
+    line-height: 1;
+    height: 280px;
+    width:70%;
+    margin:0 auto;
+}
+
+.carousel-control.left {
+    right: auto;
+    left: 0;
+    background:#fff;
+    filter: none;
+    color: #34c1e7;
+}
+.carousel-control.right {
+    left: auto;
+    right: 0;
+    background:#fff;
+    filter:none;
+    color: #34c1e7;
+
+}
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 14px 70px;
+}
+
+
+
+.items-thumbnail  .carousel-inner  .item  a img {
+    line-height: 1;
+    height: 400px;
+}
+a{
+color:#000;
+}
+label {
+    font-weight: 300;
+    color: darkgray;
+}
+a:hover{
+	color:#47c9ec;
+	text-decoration:none;
+}
+
+.caption p{
+  color:#191e23;
+}
+
+.pager li a{
+  background:#f7fafb;
+}
+
+.pager li a:hover{
+  background:#34c1e7;
+  color:#fff;
+}
+
+.thumbnail>img:hover{
+	opacity:0.5;
+}
